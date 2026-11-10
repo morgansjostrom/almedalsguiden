@@ -1,0 +1,21 @@
+/* Sign-in pages in the original Almedalskompassen palette (navy #082e4e, Georgia headings). */
+body{margin:0;background:#f0f6fa;color:#082e4e;font-family:Arial,Helvetica,sans-serif}
+.auth-wrap{min-height:100vh;display:flex;flex-direction:column;align-items:center;padding:40px 20px;box-sizing:border-box}
+.auth-brand{display:flex;align-items:center;gap:10px;font:bold 26px Georgia,serif;color:#082e4e;text-decoration:none;margin-bottom:30px}
+.auth-card{width:100%;max-width:420px;background:#fff;border:1px solid #dde6ed;border-radius:12px;padding:30px;box-sizing:border-box}
+.auth-card h1{font:bold 28px Georgia,serif;margin:0 0 10px}
+.auth-card p{font-size:14px;line-height:1.7;color:#557085;margin:0 0 18px}
+.auth-card label{display:flex;flex-direction:column;gap:6px;font-size:13px;font-weight:bold;margin-bottom:14px}
+.auth-card input{border:1px solid #cbdce8;border-radius:7px;padding:11px;font:14px Arial;color:#082e4e}
+.auth-primary,.auth-google{width:100%;padding:12px;border-radius:999px;font:bold 14px Arial;cursor:pointer}
+.auth-primary{background:#082e4e;color:#fff;border:1px solid #082e4e}
+.auth-primary:disabled{opacity:.6}
+.auth-google{background:#fff;color:#082e4e;border:1px solid #cbdce8}
+.auth-or{display:flex;align-items:center;gap:10px;margin:16px 0;color:#557085;font-size:12px}
+.auth-or:before,.auth-or:after{content:"";flex:1;border-top:1px solid #dde6ed}
+.auth-msg{margin-top:14px!important;color:#082e4e!important}
+.auth-links{display:flex;gap:14px;flex-wrap:wrap;margin:14px 0 0!important}
+.auth-links button,.auth-links a{background:none;border:0;padding:0;color:#12699c;font-size:13px;text-decoration:underline;cursor:pointer}
+.auth-card-wide{max-width:640px}
+.auth-linkbutton{display:block;text-align:center;text-decoration:none;box-sizing:border-box}
+.auth-testbanner{background:#fff2db;color:#80550e;border-bottom:1px solid #f0d9ae;padding:8px 16px;text-align:center;font-size:13px}

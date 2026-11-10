@@ -1,0 +1,23 @@
+/* Shared framing for the footer and mobile navigation across all pages. */
+body > .site-footer{background:#062c49;color:white;padding:35px 4% 22px}
+.site-footer .footergrid{max-width:1360px;margin:auto;display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:40px}
+.site-footer p,.site-footer a{font:12px/1.8 Arial,sans-serif}
+.site-footer a{display:block;color:inherit;text-decoration:none}
+.site-footer h3{font-size:13px;margin-top:0}
+.site-footer .brand{font:bold 25px Georgia,serif}
+.site-footer .fine{border-top:1px solid #ffffff35;margin:28px auto 0;padding-top:15px;max-width:1360px;font:10px/1.7 Arial,sans-serif;color:#c1d3df}
+.site-footer .fine a{font-size:10px;display:inline;text-decoration:underline}
+body > .mobilebar{display:none}
+@media(max-width:750px){
+body{padding-bottom:calc(68px + env(safe-area-inset-bottom,0px))}
+body > .mobilebar{position:fixed;top:auto;height:auto;left:0;right:0;bottom:0;display:flex;align-items:center;justify-content:space-around;gap:4px;padding:10px 8px calc(10px + env(safe-area-inset-bottom,0px));background:#fffffff7;border-top:1px solid #d6e2ec;z-index:1800;backdrop-filter:blur(10px);box-shadow:0 -3px 15px #082e4e08}
+body > .mobilebar a{display:block;flex:1;color:#36566c;text-align:center;text-decoration:none;font:11px/1.3 Arial,sans-serif;padding:3px 0}
+body > .mobilebar a b{display:block;font:23px/1.1 Arial,sans-serif;margin-bottom:5px}
+body > .mobilebar a[aria-current="page"]{color:#082e4e;font-weight:bold}
+.site-footer .footergrid{grid-template-columns:1fr 1fr;gap:25px}
+.site-footer .footergrid > div:first-child{grid-column:1/-1}
+body > .site-footer{padding-bottom:22px}
+}
+.program-embedded body > footer,.program-embedded body > .mobilebar{display:none!important}
+.program-embedded body{padding-bottom:0}
+@media print{body > .mobilebar{display:none!important}body{padding-bottom:0!important}}

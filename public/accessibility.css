@@ -1,0 +1,43 @@
+/* Shared accessibility improvements, preserving the compass palette. */
+:root{--muted:#465f73}
+:focus-visible{outline:3px solid #12699c!important;outline-offset:3px!important;box-shadow:0 0 0 5px #fff!important}
+.skip-link{position:fixed;top:8px;left:12px;z-index:10000;padding:14px;background:#082e4e;color:white;transform:translateY(-200%)}
+.skip-link:focus{transform:none}
+.save-event,.calendar-event,.program-tabs button,.close,.program-details-close,.route-close,#menubutton,.spotlight-controls button{min-width:44px!important;min-height:44px!important}
+button,input,select,summary{touch-action:manipulation}
+.meta,.cardorganizer,.event-speakers li span,.sample{color:#465f73}
+.program-filters input,.program-filters select{min-height:44px;font-size:14px}
+.program-filters label,.program-filters .filter-label{font-size:13px}
+.program-details-dialog .program-details-body{font-size:15px;line-height:1.6;margin:45px 20px 20px}
+.program-details-dialog .eventdescription p{font-size:15px}
+.language-switch{display:flex;align-items:center;gap:4px;flex-shrink:0}
+.language-switch button{display:inline-flex;align-items:center;gap:5px;min-width:44px;min-height:44px;padding:8px;border:1px solid transparent;border-radius:6px;background:transparent;color:#082e4e;font:22px Arial;cursor:pointer}
+.language-switch button[aria-pressed=false] span{filter:grayscale(1)}
+.language-switch button[aria-pressed=true] span{filter:none}
+.language-panel label{display:block;margin:12px 0 6px;font-weight:bold}
+.language-panel select,.language-panel button{width:100%;min-height:44px;margin:5px 0;padding:10px;border:1px solid #90a7b7;border-radius:6px;background:white;color:#082e4e;font:inherit}
+.language-panel p{font-size:13px;line-height:1.6}
+.language-dialog{box-sizing:border-box;width:calc(100% - 32px);max-width:650px;max-height:85dvh;overflow:auto;border:0;border-radius:12px;padding:26px;color:#082e4e;background:white}
+.language-dialog::backdrop{background:#082e4e99}.language-dialog button{min-height:44px}.language-dialog li{margin:18px 0;line-height:1.6}.language-dialog a{text-decoration:underline;color:#126391}
+.language-dialog .language-close{float:right;min-width:44px;border:1px solid #90a7b7;background:white;border-radius:5px}
+.language-notice{font:13px/1.6 Arial;padding:12px 4%;background:#f0f6fa;color:#082e4e}.language-notice[hidden]{display:none}
+@media(min-width:901px){header{gap:16px;flex-wrap:wrap;height:auto;min-height:85px}header .brand{margin-right:40px;font-size:26px}header nav{gap:16px}header .headersearch{display:flex!important;flex:1 1 160px;min-width:140px;max-width:250px}}
+@media(max-width:1100px) and (min-width:901px){header .brand{font-size:22px}header nav{font-size:12px;gap:10px}}
+@media(max-width:900px){body>header{height:70px;min-height:70px;flex-wrap:nowrap;padding-top:0;padding-bottom:0;gap:8px}body>header .language-switch{order:0;flex-basis:auto;justify-content:flex-end;margin-left:auto}body>header .headersearch,body>header .menu{display:none!important}body>header nav{top:100%}}
+@media(max-width:380px){body>header{padding-left:10px;padding-right:10px}body>header .brand{font-size:17px;gap:6px}body>header .brand .compass-mark{width:24px;height:24px}}
+@media(max-width:600px){.spotlight-card{width:min(320px,85vw)!important;height:auto!important;min-height:380px}.spotlight-card h3{-webkit-line-clamp:unset!important}.week-layout,.profile-layout,.profile-grid{grid-template-columns:minmax(0,1fr)!important}.program-tabs{flex-wrap:wrap}.language-switch button{min-height:44px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+@media print{.language-switch,.language-panel,.language-notice,.skip-link{display:none!important}}
+.leaflet-container a.leaflet-popup-close-button{width:44px!important;height:44px!important;line-height:44px!important}
+.leaflet-control-zoom a{min-width:44px;min-height:44px;line-height:44px!important}
+
+@media(max-width:750px){
+.mobilebar.scroll-menu{transform:translateY(calc(100% + 1px));visibility:hidden;pointer-events:none;transition:transform .2s ease,visibility .2s}
+.mobilebar.scroll-menu.scroll-menu-visible{transform:translateY(0);visibility:visible;pointer-events:auto}
+}
+.footer-language{margin-top:16px}
+.footer-language-switch{display:block}
+.footer-language-switch button{display:block;min-width:0;min-height:0;font:12px/1.8 Arial,sans-serif;color:inherit;background:none;border:0;padding:0;margin:0;text-align:left;cursor:pointer}
+.footer-language-switch button[aria-pressed=true]{text-decoration:underline;text-underline-offset:3px}
+.footer-language-switch button+button{border:0;border-radius:0}
+

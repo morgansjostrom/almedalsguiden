@@ -1,0 +1,54 @@
+.org-workspace-programs .org-agenda-day{margin:26px 0}
+.org-workspace-programs .org-agenda-day>h3{font:23px/1.3 Georgia,serif;text-transform:none}
+.org-workspace-programs .org-agenda-event h4{font:22px/1.35 Georgia,serif;margin:0 0 10px}
+.org-workspace-programs .org-workspace-organizers{font:12px/1.6 Arial,sans-serif;color:#557085}
+.org-workspace-actions{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-top:12px}
+.org-workspace-actions .favorite-controls{margin:0}
+@media print{.org-workspace-actions,.week-heading>a{display:none!important}.org-workspace-programs .org-agenda-event{break-inside:avoid}.org-workspace-programs .org-agenda-day{break-inside:auto}}
+
+.organizer-planning-nav{padding:0 14px 5px}.organizer-planning-nav a{display:block;padding:14px 15px;border:1px solid transparent;border-left:3px solid transparent;border-radius:8px;color:#557085;font:bold 14px Arial,sans-serif;text-decoration:none}.organizer-planning-nav a:hover,.organizer-planning-nav a:focus-visible{background:#eaf1f6;color:#082e4e}
+
+.organizer-public-nav{margin-top:-15px;padding-bottom:20px}
+
+#week-schedule>.week-heading>div{width:100%}.organizer-program-title{display:flex;align-items:center;justify-content:space-between;gap:20px}.organizer-program-title label{font:bold 12px Arial,sans-serif;color:#557085}.organizer-program-title select{display:block;margin-top:7px;padding:10px 12px;border:1px solid #cbdbe7;border-radius:7px;background:white;color:#082e4e;font:14px Arial,sans-serif;max-width:100%}@media(max-width:600px){.organizer-program-title{align-items:flex-start;flex-direction:column;gap:4px}}@media print{.organizer-program-title label{display:none}}
+
+.org-workspace-programs .speaker-program-toggle{font-size:32px}.org-workspace-programs .speaker-program-body p{white-space:pre-line}@media print{.org-workspace-programs .speaker-program-body{display:block!important}.org-workspace-programs .speaker-program-actions{display:none!important}}
+
+/* Organizer's own program: readable cards in one column. */
+.org-workspace-programs .speaker-program-list{display:grid;grid-template-columns:1fr;gap:20px;align-items:start}
+.org-workspace-programs .speaker-program{min-width:0;border:1px solid #d7e3ec;border-radius:12px;background:#fff;padding:0 18px;overflow:hidden}
+.org-workspace-programs .speaker-program:last-child{border-bottom:1px solid #d7e3ec}
+.org-workspace-programs .speaker-program>summary{padding:20px 0;align-items:flex-start;gap:14px}
+.org-workspace-programs .speaker-program-summary>strong{font-size:21px;line-height:1.4}
+.org-workspace-programs .speaker-program-date,.org-workspace-programs .speaker-program-place{font-size:14px;line-height:1.6}
+.org-workspace-programs .speaker-topic-tags>span{font-size:13px}
+.org-workspace-programs .speaker-program-body,.org-workspace-programs .speaker-program-body>p{font-size:16px;line-height:1.75}
+.org-workspace-programs .speaker-program-body dt,.org-workspace-programs .speaker-program-participants h5{font-size:14px}
+.org-workspace-programs .speaker-program-body dd,.org-workspace-programs .speaker-program-participants li{font-size:15px}
+.org-workspace-programs .speaker-program-participants li>span,.org-workspace-programs .speaker-program-actions .speaker-program-link{font-size:14px}
+.org-workspace-programs .speaker-program-toggle{flex-basis:34px;width:34px;height:34px;margin-top:3px}
+.org-workspace-programs .speaker-program-toggle::before,.org-workspace-programs .speaker-program-toggle::after{top:16px;left:9px;width:14px;height:2px}
+@media(max-width:1050px){.org-workspace-programs .speaker-program-list{grid-template-columns:1fr}}
+@media print{.org-workspace-programs .speaker-program-list{display:block}.org-workspace-programs .speaker-program{margin-bottom:16px;break-inside:avoid}}
+
+/* Match the personal schedule's day headings, time rail and typography. */
+.org-workspace-programs .org-agenda-day>h3{font:bold 17px/1.4 Georgia,serif;text-transform:capitalize;padding:13px 16px;background:#f0f6fa;border-left:3px solid #12699c;margin:0 0 4px;border-radius:0 8px 8px 0}
+.org-workspace-programs .speaker-program-list{column-gap:28px;row-gap:0}
+.org-workspace-programs .speaker-program,.org-workspace-programs .speaker-program:last-child{border:0;border-bottom:1px solid #dde6ed;border-radius:0;background:transparent;padding:0;overflow:visible}
+.org-workspace-programs .speaker-program>summary{display:grid;grid-template-columns:52px minmax(0,1fr) 34px;gap:14px;padding:22px 2px}
+.organizer-schedule-time{font:bold 18px/1.4 Arial,sans-serif;color:#082e4e;padding-top:2px}
+.organizer-schedule-time small{display:block;font:12px/1.5 Arial,sans-serif;color:#6c8394;margin-top:8px}
+.org-workspace-programs .speaker-program-date{display:none}
+.org-workspace-programs .speaker-program-summary>strong{font:bold 22px/1.3 Georgia,serif;margin:7px 0 12px}
+.org-workspace-programs .schedule-tag{display:block;font:11px/1.5 Arial,sans-serif;letter-spacing:1px;text-transform:uppercase;color:#557085}
+.org-workspace-programs .speaker-program-place,.organizer-schedule-owner{display:block;font:14px/1.8 Arial,sans-serif;color:#557085;margin:0}
+.org-workspace-programs .speaker-program-body{padding-left:68px}
+.org-workspace-programs .speaker-program-sponsored>summary{background:#fff8fa}
+@media(max-width:600px){.org-workspace-programs .speaker-program>summary{grid-template-columns:46px minmax(0,1fr) 30px;gap:10px}.org-workspace-programs .speaker-program-summary>strong{font-size:21px}.org-workspace-programs .speaker-program-body{padding-left:0}}
+
+.org-suggest-bar{display:flex;align-items:center;justify-content:flex-end;gap:10px;margin-top:18px;font:13px/1.6 Arial,sans-serif;color:var(--muted)}.org-suggest-bar [role=group]{display:flex;gap:6px}.org-suggest-bar button{width:44px;height:44px;padding:0;font-size:24px}.org-suggest-bar [aria-pressed=true]{background:var(--navy);color:var(--pale)}
+.week-main-content .org-suggestions{grid-template-columns:repeat(2,minmax(0,1fr));align-items:start;margin-top:14px}.org-suggestions .week-card{display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);border-radius:10px;border-left:4px solid var(--navy)}.org-suggestions .week-card h3{font:20px/1.3 Georgia,serif;color:var(--navy);margin:8px 0}.org-suggestions .week-card p{font:13px/1.6 Arial,sans-serif}.org-suggestions .week-actions{margin-top:auto;padding-top:12px}
+.week-card-more{margin:6px 0 4px;border-top:1px solid var(--line);padding-top:10px}.week-card-more summary{cursor:pointer;font:700 13px Arial,sans-serif;color:var(--navy);list-style:none}.week-card-more summary::-webkit-details-marker{display:none}.week-card-more summary::before{content:'+ '}.week-card-more[open] summary::before{content:'– '}.week-card-more .popupitem>small,.week-card-more .popupitem>strong{display:none}.week-card-more .popupitem{margin-top:10px}
+.week-main-content .org-suggestions.org-suggestions-list{grid-template-columns:1fr;gap:10px}.org-suggestions-list .week-card{padding:16px 20px}.org-suggestions-list .week-card>p:not(.match-reason){display:none}.org-suggestions-list .week-card h3{font-size:18px;margin:4px 0}
+@media(max-width:700px){.week-main-content .org-suggestions{grid-template-columns:1fr}}
+.week-card-more .popupitem>*:not(.eventbody){display:none}.week-card-more .eventbody{font:13px/1.6 Arial,sans-serif;color:var(--ink,#082e4e)}.week-card-more .eventbody p,.week-card-more .event-extra-description{font:13px/1.6 Arial,sans-serif}.week-card-more .event-speakers h3{font:18px Georgia,serif;margin:14px 0 6px}.week-card-more .event-speakers li span{margin-left:6px;color:var(--muted)}

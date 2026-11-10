@@ -1,0 +1,24 @@
+.admin-wrap{max-width:860px;margin:0 auto;padding:40px 20px 80px;box-sizing:border-box}
+.admin-wrap>h1{font:bold 34px Georgia,serif;margin:0 0 10px}
+.admin-intro{font-size:15px;line-height:1.7;color:#557085;max-width:680px}
+.admin-card{background:#fff;border:1px solid #dde6ed;border-radius:12px;padding:24px;margin-top:20px}
+.admin-card h2{font:24px Georgia,serif;margin:0 0 14px}
+.admin-card p{font-size:14px;color:#557085}
+.admin-form label{display:flex;flex-direction:column;gap:6px;font-size:13px;font-weight:bold;margin-bottom:14px}
+.admin-form input{border:1px solid #cbdce8;border-radius:7px;padding:11px;font:14px Arial;color:#082e4e}
+.admin-issued{border-color:#12699c;background:#f0f6fa}
+.admin-issued dl{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;font-size:14px;margin:0 0 16px}
+.admin-issued dt{font-weight:bold}.admin-issued dd{margin:0;overflow-wrap:anywhere}
+.admin-issued code{font:bold 16px monospace}
+.admin-list{list-style:none;margin:0;padding:0}
+.admin-list li{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:14px 0;border-top:1px solid #dde6ed}
+.admin-list li>div:first-child{display:flex;flex-direction:column;gap:3px;font-size:13px;color:#557085}
+.admin-list b{font-size:15px;color:#082e4e}
+.admin-actions{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.admin-actions button{border:1px solid #cbdce8;background:#fff;color:#082e4e;border-radius:7px;padding:8px 12px;font:bold 12px Arial;cursor:pointer}
+.admin-link{display:block;text-align:center;text-decoration:none;box-sizing:border-box}
+.admin-events{flex-basis:100%;display:flex;flex-direction:column;gap:12px;background:#f5f9fc;border:1px solid #dde6ed;border-radius:8px;padding:16px}
+.admin-events form{display:flex;gap:10px;align-items:flex-end;flex-wrap:wrap}
+.admin-events label{display:flex;flex-direction:column;gap:4px;font:bold 13px Arial;color:#082e4e;flex:1;min-width:220px}
+.admin-events input,.admin-events select{height:40px;border:1px solid #cbdce8;border-radius:7px;padding:0 10px;font:14px Arial}
+.admin-events h3{margin:6px 0 0;font-size:15px;color:#082e4e}

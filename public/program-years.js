@@ -1,0 +1,1 @@
+(()=>{'use strict';function defaultYear(events,now=new Date()){const today=new Intl.DateTimeFormat('sv-SE',{timeZone:'Europe/Stockholm',year:'numeric',month:'2-digit',day:'2-digit'}).format(now);const days=events.map(e=>e.day).filter(Boolean).sort();return (days.find(day=>day>=today)||days[days.length-1]||today).slice(0,4)}window.AlmedalProgramYears={defaultYear};})();

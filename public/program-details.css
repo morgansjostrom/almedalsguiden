@@ -1,0 +1,4 @@
+.program-details-dialog{box-sizing:content-box;width:fit-content;max-width:calc(100vw - 30px);max-height:calc(100dvh - 30px);border:0;border-radius:12px;padding:1px;color:#082e4e;background:#fff;overflow:visible;font:12px/1.5 Arial,sans-serif;box-shadow:0 3px 14px rgb(0 0 0 / 40%)}
+.program-details-dialog::backdrop{background:rgb(8 30 44 / 55%)}
+.program-details-close{position:absolute;top:0;right:0;z-index:2;width:30px;height:30px;font:24px/30px Arial,sans-serif;border:0;border-radius:50%;background:#fff;color:#757575;cursor:pointer;padding:0}
+.program-details-body{overflow:auto}

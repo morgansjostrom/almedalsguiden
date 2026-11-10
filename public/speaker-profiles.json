@@ -1,0 +1,604 @@
+{
+  "people": [
+    {
+      "name": "Christian Ekström",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/christian-ekstrom-98327bb",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Fanny Lindberg",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/fannylindberg",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Patrick Johansson",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/patrickjohansson",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Eric Grankvist",
+      "status": "Möjlig match",
+      "profile_url": "",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Pelle Tamleht",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/pelletamleht",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Martin Hedberg",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/mhedberg",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Linda Olsson",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/linda-olsson-6a2b586",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Gustav Hasselskog",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/gustav-hasselskog-59597b1",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Camilla Hansén",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/camilla-hansen",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Inger Gillerfors",
+      "status": "Ingen tydlig träff",
+      "profile_url": "",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Juliana Perez Falke",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/juliana-perez-falke-59483310",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Anna Cedborg",
+      "status": "Möjlig match",
+      "profile_url": "",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Gustaf Skarsgård",
+      "status": "Ingen tydlig träff",
+      "profile_url": "",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Petra Larsson",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/petra-larsson-a82431338",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Jenny Sylvén",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/jenny-sylv%C3%A9n-852b42121",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Marcus Hartmann",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/hartmannmarcus",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Igor Lindegren",
+      "status": "Ingen tydlig träff",
+      "profile_url": "",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Johan von Schreeb",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/johan-von-schreeb-25899282",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Tony Benic",
+      "status": "Ingen tydlig träff",
+      "profile_url": "",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Elisabeth Björk",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/elisabeth-bj%C3%B6rk-7ba69a184",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Dónal Gaynor",
+      "status": "Ingen tydlig träff",
+      "profile_url": "",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Katarina Berg",
+      "status": "Tydlig match",
+      "profile_url": "https://ch.linkedin.com/in/katarina-berg-5375074",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Joakim Lusensky",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/joakim-lusensky-316a1297",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Viktor Yarochenko",
+      "status": "Ingen tydlig träff",
+      "profile_url": "",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Julia Harryson",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/julia-harryson-39a5063b",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Hanna Gerdes",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/hannagerdes",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Bjørn-Magnus Bjørnstad",
+      "status": "Tydlig match",
+      "profile_url": "https://no.linkedin.com/in/bj%C3%B8rn-magnus-bj%C3%B8rnstad",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Johan Sveningsson",
+      "status": "Möjlig match",
+      "profile_url": "",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Marie Härlin",
+      "status": "Ingen tydlig träff",
+      "profile_url": "",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Lena Boberg",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/lena-boberg-303a654",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Maja Malmberg",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/majamalmberg",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Johanna Mossberg",
+      "status": "Möjlig match",
+      "profile_url": "",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Kajsa Ollongren",
+      "status": "Tydlig match",
+      "profile_url": "https://nl.linkedin.com/in/kajsaollongren",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Maria Hemström Hemmingsson",
+      "status": "Möjlig match",
+      "profile_url": "",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Agneta Carlberger Kundoori",
+      "status": "Möjlig match",
+      "profile_url": "",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Niklas Arnberg",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/niklas-arnberg-424905202",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Maria Swartling",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/maria-swartling-4ab7ab217",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Jonas Aneheim",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/janeheim",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Kamal El Salim",
+      "status": "Möjlig match",
+      "profile_url": "",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Olli Kantanen",
+      "status": "Tydlig match",
+      "profile_url": "https://fi.linkedin.com/in/olli-kantanen-55270659",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Amelie Norling",
+      "status": "Ingen tydlig träff",
+      "profile_url": "",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Pia McAleenan",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/pia-mcaleenan-3a0a6439",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Sofia Cederlöf",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/sofia-cederl%C3%B6f-92286511",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Fatima Essaidi",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/fatimaessaidi",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Hanna Widenberg",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/hannawidenberg",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Anna Ryott",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/anna-ryott-725349110",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Birte Sandberg",
+      "status": "Ingen tydlig träff",
+      "profile_url": "",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Mats Olin",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/mats-olin-038a0b3",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Ulla Rosenström",
+      "status": "Tydlig match",
+      "profile_url": "https://fi.linkedin.com/in/rosenstr%C3%B6m-ulla-4551b46",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Sofia Wreding",
+      "status": "Möjlig match",
+      "profile_url": "",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Filip Magnusson Diurlin",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/filip-magnusson-diurlin-a42077292",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Maksym Horbatiuk",
+      "status": "Ingen tydlig träff",
+      "profile_url": "",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Lotta Rönström",
+      "status": "Tydlig match",
+      "profile_url": "https://be.linkedin.com/in/lotta-r%C3%B6nstr%C3%B6m-8a344a19",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Maria Karlgren",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/maria-karlgren-1157115",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Daniel Kullgard",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/daniel-kullgard-0521883",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Lisa Klefbom",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/lisaklefbom",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Evelina Enochsson",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/evelina-enochsson-a3609817",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Andreas Hagman",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/andreas-hagman-1b214550",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Sara Vikman Areskär",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/sara-vikman-26300b7",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Emil Gejrot",
+      "status": "Tydlig match",
+      "profile_url": "https://no.linkedin.com/in/emil-gejrot",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Tove Carlén",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/tovecarlen",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Emil Merkel",
+      "status": "Tydlig match",
+      "profile_url": "https://www.linkedin.com/in/emil-merkel-6b92b6152/",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Eva Tiensuu Janson",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/eva-tiensuu-janson-2a6a007b",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Erik Amnå",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/erik-amn%C3%A5-1bb90589",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Calle Håkansson",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/calle-h%C3%A5kansson-phd-47222a109",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Hampus Grönberg",
+      "status": "Ingen tydlig träff",
+      "profile_url": "",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Lovisa Ekman",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/lovisa-ekman-32b1304a",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Vivetha Joshna Natterjee",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/vivethanatterjee",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Per Norlander",
+      "status": "Ingen tydlig träff",
+      "profile_url": "",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Lena Johansson",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/lena-johansson-3b384b6",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Sophie Carler",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/sophiecarler",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Bengt Persson",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/bengt-persson-80942313",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Dino Keljalic",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/dino-keljalic-9123935a",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Lovisa Fricot Noren",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/fricotnoren",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Christian Levin",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/christian-levin-5712ab5",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Mona Olin",
+      "status": "Ingen tydlig träff",
+      "profile_url": "",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Karin Bengtsson",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/karin-bengtsson-3a1b3532",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Jana Becker",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/jana-becker-101b60b",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Palle Borgström",
+      "status": "Ingen tydlig träff",
+      "profile_url": "",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Peter Petersson",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/peter-petersson-47b33454",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Patrick Joyce",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/patrick-joyce-463376a6",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Elisabet Spross",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/elisabet-spross-45528a68",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Liza-Maria Norlin",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/lizamaria",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Charlotte Mattfolk",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/charlotte-mattfolk-5591641",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Åsa Wikforss",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/%C3%A5sa-wikforss-8a986723",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Elisabet Reslegård",
+      "status": "Ingen tydlig träff",
+      "profile_url": "",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Jörgen Sandström",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/j%C3%B6rgen-sandstr%C3%B6m-85bb349",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Mikael Bernström",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/mikael-bernstr%C3%B6m-07875330",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Susanna Backman",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/susanna-backman-848b358b",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Magnus Welén",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/magnuswelen",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Johan Fredriksson",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/johan-fredriksson-a910ab13",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Harald Hjalmarsson",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/harald-hjalmarsson-866b38205",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Alexandra Sikström",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/alexandra-sikstr%C3%B6m-fd-salomonsson-b8079991",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Anna Malm Kelfve",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/annamalmkelfve",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Johan Krallis Anell",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/johan-krallis-anell-2a1a739a",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Ambassador Ludger Siemes TBC",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/ludger-siemes-40461b34",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Aadne Aasland",
+      "status": "Tydlig match",
+      "profile_url": "https://no.linkedin.com/in/aadne-aasland-2676aa326",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Fredric Skälstad",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/fredric-sk%C3%A4lstad-0b394249",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Johan Laurell",
+      "status": "Tydlig match",
+      "profile_url": "https://se.linkedin.com/in/johan-laurell-0b52a046",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "name": "Klaes Hedwall",
+      "status": "Ingen tydlig träff",
+      "profile_url": "",
+      "checked_at": "2026-10-19"
+    }
+  ]
+}

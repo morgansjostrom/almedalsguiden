@@ -1,0 +1,13 @@
+.contact-layout{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:56px;padding:36px 0 12px}
+.contact-layout h2{font:bold 28px/1.25 Georgia,serif;letter-spacing:0;margin:0 0 20px}
+.contact-fields{display:grid;grid-template-columns:1fr 1fr;gap:22px 24px}
+.contact-fields label{display:flex;flex-direction:column;gap:8px;font:bold 13px/1.5 Arial,sans-serif;color:var(--navy);min-width:0}
+.contact-fields input{width:100%;min-width:0;border:1px solid var(--line);border-radius:6px;padding:14px;background:var(--organizer-surface);color:var(--navy);font:16px/1.4 Arial,sans-serif}
+.contact-fields input:focus-visible{outline:2px solid var(--blue)}
+.contact-submit{margin-top:24px;border:0;cursor:pointer;min-height:48px}
+.contact-submit:disabled{opacity:.65;cursor:wait}
+.contact-privacy,.contact-status,.contact-details p{font:14px/1.75 Arial,sans-serif;color:var(--muted)}
+.contact-privacy{margin:18px 0 0}.contact-status{margin:16px 0 0}
+.contact-layout a:not(.arrangor-start-button){color:var(--blue);text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+.contact-details{border-left:1px solid var(--line);padding-left:32px}
+@media(max-width:800px){.contact-layout{grid-template-columns:1fr;gap:32px;padding-top:28px}.contact-fields{grid-template-columns:1fr;gap:18px}.contact-details{border-left:0;border-top:1px solid var(--line);padding:26px 0 0}.contact-layout h2{font-size:25px}}

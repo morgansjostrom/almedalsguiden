@@ -1,0 +1,26 @@
+.spotlight{margin-top:32px;padding-top:28px;border-top:1px solid var(--line);min-width:0}
+.spotlight .sectionhead{margin-bottom:8px;align-items:center}
+.spotlight-controls{display:flex;gap:8px;flex-shrink:0}
+.spotlight-controls button{width:40px;height:40px;border:1px solid var(--line);border-radius:50%;background:white;color:var(--navy);font-size:21px}
+.spotlight-controls button:hover:enabled{background:var(--navy);color:white}
+.spotlight-controls button:disabled{opacity:.3;cursor:default}
+.spotlight-status{font-size:12px;line-height:1.6;color:var(--muted);margin:0 0 18px}
+.spotlight-list{display:flex;align-items:flex-start;gap:16px;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x proximity;scrollbar-color:#8ca9bc #edf3f7;scrollbar-width:thin;list-style:none;margin:0;padding:0 0 16px}
+.spotlight-card{flex:0 0 300px;width:300px;min-width:300px;max-width:300px;height:400px;overflow:hidden;display:flex;flex-direction:column;padding:20px;border:1px solid var(--line);border-radius:10px;background:#f6f9fc;scroll-snap-align:start}
+.spotlight-tags{min-height:15px;flex-shrink:0;display:flex;align-items:center;flex-wrap:wrap;gap:8px;font-size:10px;font-weight:bold;color:var(--blue)}
+.spotlight-date{flex-shrink:0;font-size:11px;line-height:1.6;color:var(--muted);margin:15px 0 9px}
+.spotlight-card h3{flex-shrink:0;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;font:bold 20px/1.3 Georgia,serif;margin:0 0 12px;overflow-wrap:anywhere}
+.spotlight-card h3 a:hover,.spotlight-open:hover{text-decoration:underline}
+.spotlight-description{font-size:12px;line-height:1.65;color:var(--muted);margin:0 0 14px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.spotlight-meta{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;flex-shrink:0;margin:0 0 14px;font-size:11px;line-height:1.7;overflow-wrap:anywhere}
+.spotlight-meta span{color:var(--muted)}
+.spotlight-actions{margin-top:auto;flex-shrink:0;display:flex;flex-direction:column;align-items:stretch;gap:12px}
+.spotlight-actions .favorite-controls{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.spotlight-open{font-size:12px;font-weight:bold}
+.spotlight-sponsored{background:#fff8fa;border-color:#efdde5}
+.spotlight-sponsor{color:#8c365f;background:#fceef4;border-radius:4px;padding:4px 6px}
+@media(max-width:700px){.spotlight{order:1;margin-top:24px;padding-top:22px}.spotlight-card{padding:18px}.spotlight-list{margin-right:-4px}.spotlight-controls button{width:36px;height:36px}}
+
+.spotlight-actions .save-event,.spotlight-actions .calendar-event{font-size:11px;padding:7px 9px}.spotlight-actions .favorite-controls{gap:6px}.spotlight-actions .favorite-total{font-size:11px}
+
+.spotlight-card{cursor:pointer}

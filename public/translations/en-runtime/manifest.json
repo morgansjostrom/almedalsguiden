@@ -1,0 +1,107 @@
+{
+ "language": "en",
+ "property": "AlmedalEventTranslations",
+ "records": 4861,
+ "chunks": [
+  {
+   "file": "/translations/en-runtime/en-2025-001.json",
+   "count": 250,
+   "sha256": "35b3e8f1ba98c678181367773844bf88b54d2d7a1a5f9cd812aa98d7ae7931f0"
+  },
+  {
+   "file": "/translations/en-runtime/en-2025-002.json",
+   "count": 250,
+   "sha256": "78e27d6651bbe47ffe4e286c3ba5c3e16c6f94cafbb0248178cc8b81b820ff40"
+  },
+  {
+   "file": "/translations/en-runtime/en-2025-003.json",
+   "count": 250,
+   "sha256": "1c413133344e4ae5b94667cee098244c9603335adf45f50db6f08ad0f258e8d0"
+  },
+  {
+   "file": "/translations/en-runtime/en-2025-004.json",
+   "count": 250,
+   "sha256": "9ae380212147bd4bccec28225fcef8a1f2104938a1e97c473d5425b10bd965ff"
+  },
+  {
+   "file": "/translations/en-runtime/en-2025-005.json",
+   "count": 250,
+   "sha256": "631556281c5d8b14f0cdd3ced1cf59e64e4c32127f500bdfdbbbf58c815e7e5a"
+  },
+  {
+   "file": "/translations/en-runtime/en-2025-006.json",
+   "count": 250,
+   "sha256": "e19f10d9c0e1d4f4ca0e481877dc1e2e180eecb9aeaaf29eed24b8cb430cdabe"
+  },
+  {
+   "file": "/translations/en-runtime/en-2025-007.json",
+   "count": 150,
+   "sha256": "0913199e053cdf4f8bbb1ffcad08817ad5046dd0fdf8a1d6f1f8ddd962d0c61c"
+  },
+  {
+   "file": "/translations/en-runtime/en-2026-001.json",
+   "count": 250,
+   "sha256": "2ec1f24657dcfa01118e799a33e85c05ffda17b4b16a749b34c2015a2d337be1"
+  },
+  {
+   "file": "/translations/en-runtime/en-2026-002.json",
+   "count": 250,
+   "sha256": "14b1417d033e4143f13a82fe95ee764870ff87046bae212db5cadb77ed1015e0"
+  },
+  {
+   "file": "/translations/en-runtime/en-2026-003.json",
+   "count": 250,
+   "sha256": "0ea8594ded74ed94d6d2fea1bd403c6d91581a3011bc557a0e9c3135bc884545"
+  },
+  {
+   "file": "/translations/en-runtime/en-2026-004.json",
+   "count": 250,
+   "sha256": "e7024b60ccbcb48eb7ea60722e8ad38d1b6971046c5e575f4d0e40d7d0b7a15d"
+  },
+  {
+   "file": "/translations/en-runtime/en-2026-005.json",
+   "count": 250,
+   "sha256": "1bc42630c562d9601e54aa40a2be92a81311a29073028c9ec20dd8888f9daf2f"
+  },
+  {
+   "file": "/translations/en-runtime/en-2026-006.json",
+   "count": 250,
+   "sha256": "107c1f43a85ba20453319d60473f900d0404ada6b0bce17fb1592f3fc862a67d"
+  },
+  {
+   "file": "/translations/en-runtime/en-2026-007.json",
+   "count": 250,
+   "sha256": "53fe762b0ab37fa3586e27cd3557db28c5518b9ffca44eed03afc040a476285f"
+  },
+  {
+   "file": "/translations/en-runtime/en-2026-008.json",
+   "count": 250,
+   "sha256": "e0c2348f1799b343afdf53da2dd8875392165f63448fabd91e29bc5cd3afda43"
+  },
+  {
+   "file": "/translations/en-runtime/en-2026-009.json",
+   "count": 250,
+   "sha256": "ca3b4f012e1c38a3aa3689ff0356c3e9935caf08d2b601f961f5732eb41abd11"
+  },
+  {
+   "file": "/translations/en-runtime/en-2026-010.json",
+   "count": 250,
+   "sha256": "a1ca0f319df17dbe6cd48acd550e01e6dcadf1fb96c748f35bcf3c6cd7391f57"
+  },
+  {
+   "file": "/translations/en-runtime/en-2026-011.json",
+   "count": 250,
+   "sha256": "39d6220636848cd27e31c003964f2290ddba18ffda46d6e8b71a6bd66b206f2c"
+  },
+  {
+   "file": "/translations/en-runtime/en-2026-012.json",
+   "count": 250,
+   "sha256": "416a8b1568a16f3940748e6dc88769e7dd2f108e0222863680817e5e74b30b71"
+  },
+  {
+   "file": "/translations/en-runtime/en-2026-013.json",
+   "count": 211,
+   "sha256": "f1fb4323263d7d804973399572b61c20667c978bcbf06aa039c6b05313439b7d"
+  }
+ ]
+}

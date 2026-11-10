@@ -1,0 +1,4 @@
+CREATE POLICY "Owners upload profile photo" ON storage.objects FOR INSERT TO authenticated WITH CHECK (bucket_id = 'profile-photos' AND name = auth.uid()::text || '/profile.jpg');
+CREATE POLICY "Owners update profile photo" ON storage.objects FOR UPDATE TO authenticated USING (bucket_id = 'profile-photos' AND name = auth.uid()::text || '/profile.jpg') WITH CHECK (bucket_id = 'profile-photos' AND name = auth.uid()::text || '/profile.jpg');
+CREATE POLICY "Owners read profile photo" ON storage.objects FOR SELECT TO authenticated USING (bucket_id = 'profile-photos' AND name = auth.uid()::text || '/profile.jpg');
+CREATE POLICY "Owners delete profile photo" ON storage.objects FOR DELETE TO authenticated USING (bucket_id = 'profile-photos' AND name = auth.uid()::text || '/profile.jpg');

@@ -1,0 +1,14 @@
+/* Shared compass identity; keep browser storage keys stable across brand changes. */
+.brand{display:inline-flex;align-items:center;gap:12px;line-height:1.1;white-space:nowrap;color:inherit;text-decoration:none}
+.brand .compass-mark{display:block;flex:none;width:40px;height:40px}
+header .brand{font:bold 29px Georgia,serif;letter-spacing:-.65px;color:#082e4e;flex-shrink:0}
+footer .brand{font-size:25px;letter-spacing:-.4px}
+footer .compass-mark{filter:brightness(0) invert(1);width:34px;height:34px}
+@media(max-width:1350px){header .headersearch{display:none}header{gap:30px}}
+@media(max-width:1100px){header .brand{font-size:26px}header .brand .compass-mark{width:36px;height:36px}header{gap:24px}header nav{gap:16px}}
+@media(max-width:900px){header{height:70px;padding:0 20px;justify-content:space-between}header .brand{font-size:24px;gap:9px}header .brand .compass-mark{width:33px;height:33px}header .menu{display:block}header nav{display:none;position:absolute;top:70px;left:0;right:0;background:white;z-index:9;padding:15px 24px;box-shadow:0 15px 20px #0001}header nav.open{display:flex;flex-direction:column;align-items:stretch;gap:0}header nav a{padding:12px 0}}
+@media(max-width:700px){header .brand{font-size:22px;letter-spacing:-.5px}header .brand .compass-mark{width:30px;height:30px}footer .brand{font-size:23px}}
+@media(max-width:380px){header{padding-left:14px;padding-right:14px;gap:10px}header .brand{font-size:19px;gap:7px}header .brand .compass-mark{width:27px;height:27px}}
+
+/* Give the wordmark more room before the desktop navigation. */
+@media(min-width:901px){header .brand{margin-right:40px}}

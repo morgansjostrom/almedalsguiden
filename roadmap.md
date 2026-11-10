@@ -1,0 +1,41 @@
+# Roadmap
+- [x] Besökarkatalog: profilbilder, filter, kort/lista, sidindelning och matchning efter aktivt nätverksmedgivande; stängd pilot och riktiga kontaktflöden verifierade
+- [x] Översätt inloggningssidan enligt språkvalet och byt adress/filnamn till signin utan ChatGPT; länkar och gamla adresser verifierade
+- [x] Kontakta oss: gemensam Visbybild/stil och validerat formulär med förnamn, efternamn, företag och e-post
+- [ ] Kontaktformulärets e-postleverans till info@almedalskompassen.se – blockerad av avsändardomänens inställning och verifiering
+- [x] Annonsera och Arrangörsverktyg: samma toppbild och kortstil som arrangörslandningen; information/pris och åtta icke-interaktiva verktyg, mobilmeny och inloggad planering verifierade
+- [x] Arrangörslandning: ta bort tillbakalänk, visa grundpaketets fyra delar och verifiera inloggning utan fastnad status
+- [x] Programlänkar går till startsidans ankare; bevara sökning, event och inbäddning samt testa gamla adresser
+- [x] Meny under Min Almedalsvecka: Min profil, Mitt schema, Förslag för dig, Medverkande i programmet, Nätverka med andra besökare
+- [x] Samla Min sida: en profil med foto och Privat / Nätverka, gemensamma intressen samt programbevakning
+- [x] Byt namn till Medverkande i programmet och Nätverka med andra besökare i besökarvyn och mobilmenyn
+- [x] Bygg skyddade nätverksprofiler, förfrågningar och samtal
+- [x] Bygg Nätverka, blockering, rapporter och adminhantering
+- [x] Slutför nätverkstester och dokumentation
+- [ ] Öppna nätverkande för besökare – blockerad av personuppgiftsansvarig, kontaktväg, lagringstider och modererings-/raderingsrutiner från Morgan
+- [x] Godkänd plan för frivilligt nätverkande genomförd som stängd pilot
+- [x] Gemensam mörkblå helskärmsmeny i mobilen, språk som text och befintlig logga; verifierad på alla elva statiska sidor
+- [x] Behåll bottenmenyn som snabbnavigering och dölj den när helskärmsmenyn är öppen
+- [x] Sidfot: ny tagline-text och Upptäck-länkarna Artiklar + Program & karta på alla sidor
+- [x] Loggan på "Vår Almedalsvecka" – fixad av Morgan, ingen ändring från min sida
+- [x] Landningssida för "Logga in som arrangör" där besökaren kan betala eller logga in (arrangor-start.html)
+- [x] Mobiluppdateringar: verifiera senaste meny i förhandsvisningen och skilj från publicerad version (ompublicering kräver Morgans beslut)
+- [x] Logga upptill och i sidfoten: hindra att arrangörslänkningen ersätter varumärket; versionsmarkera berörda filer
+- [x] Svepbara artikelkort på mobilen: samma bredd och bild-, rubrik- och ingressformat; verifierat 393 px
+- [x] Ta bort ytterligare oavsiktlig länk i startsidans inledning enligt Morgans skärmbild 22:21
+- [ ] Förslag: AI-agent nere till höger som hittar relevanta programpunkter (AI Gateway)
+- [x] Lovable Cloud: own database + tables (favorites, week, newsletter, organizer profiles, roles)
+- [x] Login (Google + email/password) for Min Almedalsvecka and "Logga in som arrangör"
+- [x] Wire /api/* to verified sessions
+- [x] Admin: morgan.sjostrom@gmail.com (granted on first verified sign-in)
+- [x] Stripe-kortbetalning borttagen 2026-10-27 (ersatt av faktura)
+- [ ] Own profile per paying organizer (blocked: needs Morgan decision, not in original)
+- [ ] Public hearts, speaker reports, organizer image upload
+- [ ] R2 inventory (blocked: not available)
+- [x] Kontrollera att alla länkar i mobilmenyn leder till rätt sida och att menyn stängs vid klick (64 klick, 0 fel)
+- [ ] (Pausad på Morgans order) Genomlys katalog, inloggning, betalning, konto, behörighet och förnyelse – rapporten är klar men åtgärderna är pausade
+- [x] Artikelblocket på startsidan är svårläst i mobilen – gör det möjligt att svepa höger för att läsa fler artiklar
+- [x] Fakturabaserade arrangörskonton: admin skapar konto + tillfälligt lösenord, byte vid första inloggning, ett års åtkomst, kortbetalning borttagen
+- [x] Lägg in översättningar av programpunkter från Morgans zip (2026-10-26)
+- [x] Lägg in 1 650 engelska titlar för 2025 från Morgans zip (2026-11-10); 797 återstår enligt exporten
+- [x] "DAG FÖR DAG" pa Mitt schema: samma storlek och farg som etiketterna pa de andra flikarna
